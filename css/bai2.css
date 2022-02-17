@@ -1,0 +1,19 @@
+table{
+    border-collapse: collapse;
+}
+tr{
+    height: 40px;
+}
+td{
+    text-align: center;
+    font-size: 11pt;
+    padding: 10px;
+    border-color: rgb(58, 104, 179);
+}
+thead{
+    background-color: rgb(82, 131, 211);
+    color: rgb(255, 255, 255);
+}
+tbody tr:nth-child(2n+1){
+    background-color: rgb(197, 197, 197);
+}

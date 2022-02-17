@@ -1,0 +1,35 @@
+table{
+    border-collapse: collapse;
+}
+tr{
+    height: 30px;
+}
+td{
+    text-align: center;
+    border-color: rgb(95, 201, 92);
+}
+th{
+    background-color:  rgb(95, 201, 92);
+    border-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+td:nth-child(2n+1){
+    width: 80px;
+}
+td:nth-child(3){
+    width: 40px;
+}
+td:nth-child(2n){
+    width: 130px;
+}
+tr:nth-child(2){
+    background-color: rgb(172, 226, 155);
+}
+tr:nth-child(3) td:nth-child(2){
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+}
+tr:nth-child(3) td:nth-child(5){
+    color: rgb(255, 0, 0);
+    font-size: 10pt;
+}
